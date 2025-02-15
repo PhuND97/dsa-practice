@@ -3,13 +3,13 @@
 	"version": "1.0.0",
 	"description": "Data Structures and Algorithms Practice",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
-		"test": "node graph/easy/501.FindModeinBinarySearchTree.ts"
+		"test": "node src/index.js"
 	},
 	"dependencies": {
-		"typescript": "^23.8.0"
+		"inquirer": "^12.4.1"
 	},
-	"devDependencies": {},
 	"author": "",
 	"license": "ISC"
 }

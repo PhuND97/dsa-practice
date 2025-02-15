@@ -10,22 +10,13 @@ The right subtree of a node contains only nodes with keys greater than or equal 
 Both the left and right subtrees must also be binary search trees.
  */
 
+import { TreeNode } from '../../utils/TreeNode.ts';
+
 /**
  * 
 Input: root = [1,null,2,2]
 Output: [2]
  */
-
-class TreeNode {
-	val: number;
-	left: TreeNode | null;
-	right: TreeNode | null;
-	constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
-		this.val = val === undefined ? 0 : val;
-		this.left = left === undefined ? null : left;
-		this.right = right === undefined ? null : right;
-	}
-}
 
 export function findMode(root: TreeNode | null): number[] {
 	const map: Map<number, number> = new Map<number, number>();
