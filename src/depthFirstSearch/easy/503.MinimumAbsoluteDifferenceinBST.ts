@@ -4,7 +4,7 @@ Input: root = [4,2,6,1,3]
 Output: 1
  */
 
-import { TreeNode, convertArrayToTreeNode } from './../../utils/TreeNode.ts';
+import { TreeNode, convertArrayToTreeNode } from '../../utils/TreeNode.ts';
 
 function getMinimumDifference(root: TreeNode | null): number {
 	let min = Infinity;
